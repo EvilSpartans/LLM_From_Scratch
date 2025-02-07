@@ -47,7 +47,6 @@ chainlit run chatbot.py
 - Assurez-vous d'avoir **Python 3.8+** installé sur votre machine.
 - L'environnement virtuel permet d'éviter les conflits de versions entre les dépendances.
 - Chainlit est un framework open-source permettant de créer des interfaces utilisateur.
-- FastAPI est un framework léger et rapide pour créer des APIs modernes en Python.
 
 ---
 
