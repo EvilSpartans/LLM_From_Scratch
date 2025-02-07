@@ -1,0 +1,13 @@
+# Ignorer le dossier
+__pycache__/
+.venv/
+.chainlit/
+BOOKS/
+Collection/
+
+# Ignorer tous les fichiers du dossier
+Data/*
+Models/*
+
+# Ignorer le fichier
+chainlit.md

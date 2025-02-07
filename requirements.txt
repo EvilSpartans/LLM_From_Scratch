@@ -1,0 +1,27 @@
+# PyTorch avec CUDA 11.8
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
+torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Transformers & Tokenization
+transformers>=4.35.0
+tiktoken
+sentencepiece>=0.1.99
+
+# Gestion des datasets & prétraitement
+datasets>=2.14.0
+tokenizers>=0.15.0
+numpy>=1.23.0
+pandas>=1.5.0
+scipy>=1.9.0
+
+# Entraînement et monitoring
+accelerate>=0.23.0
+bitsandbytes>=0.41.0
+wandb>=0.16.0
+tqdm>=4.64.0
+matplotlib>=3.6.0
+scikit-learn>=1.2.0
+
+# Interface pour tester le modèle
+chainlit>=1.2.0
