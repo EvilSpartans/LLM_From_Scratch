@@ -43,22 +43,6 @@ chainlit run chatbot.py
 
 ---
 
----
-
-## 🚀 Exécution de l'API FastAPI
-
-### 🔹 Avec FastAPI Dev :
-```sh
-fastapi dev main.py
-```
-
-### 🔹 Avec Uvicorn :
-```sh
-uvicorn main:app --reload
-```
-
----
-
 ## 🎯 Remarques
 - Assurez-vous d'avoir **Python 3.8+** installé sur votre machine.
 - L'environnement virtuel permet d'éviter les conflits de versions entre les dépendances.
